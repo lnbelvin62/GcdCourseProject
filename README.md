@@ -1,7 +1,3 @@
-The README is supposed to explain how all of the scripts work
-and how they are connected.  It explains the analysis files
-and is supposed to be clear and understandable.
-
 ## Overview
 There is one R program (script) that fulfills the instructions for this
 project and it is named "run_analysis.R" as specified in the project
