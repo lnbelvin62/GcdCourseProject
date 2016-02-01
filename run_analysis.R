@@ -487,4 +487,9 @@ create_tidy_data <- function() {
     second_data_set <- average_all_variables(mean_std_data_set)
 
     # That takes care of step 5 of the instructions - the final step.
+
+    # Actually, the final step is to write the tidy data set from step 5
+    # out to a text file using the "write.table()" function.
+    write.table(second_data_set, file = "second_tidy_data_set.txt",
+                row.names = FALSE)
 }
